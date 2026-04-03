@@ -111,12 +111,12 @@ finance-dashboard/
 │   │   │   ├── SpendingBreakdown.jsx
 │   │   │   └── RecentTransactions.jsx
 │   │   │
-│   │   ├── transactions/
-│   │   │   ├── TransactionList.jsx
-│   │   │   ├── TransactionFilters.jsx
-│   │   │   └── AddTransactionModal.jsx
-│   │   │
-│   │   └── common/
+│   │   └── transactions/
+│   │       ├── TransactionList.jsx
+│   │       ├── TransactionFilters.jsx
+│   │       └── AddTransactionModal.jsx
+│   │   
+│   │   
 │   │
 │   ├── store/
 │   │   ├── index.js
@@ -184,5 +184,3 @@ A simple toggle in the header switches between Admin and Viewer roles. No backen
 ### 6. Theming
 
 Dark mode is implemented using Tailwind's `darkMode: 'class'` strategy. A single toggle in the header switches the entire UI, and the preference is saved to localStorage.
-
----
