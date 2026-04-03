@@ -186,7 +186,3 @@ A simple toggle in the header switches between Admin and Viewer roles. No backen
 Dark mode is implemented using Tailwind's `darkMode: 'class'` strategy. A single toggle in the header switches the entire UI, and the preference is saved to localStorage.
 
 ---
-
-## Author
-
-Mahesh Karanam — gangamahesh809@gmail.com
